@@ -1,0 +1,24 @@
+.footer{
+    background-color: #f7f7f7;
+    padding:1.5em;
+    .api-info{
+        font-size:3vmin;
+        margin-left:10vw;
+    }
+    .github-info{
+        font-size:3vmin;
+        margin-left: 10vw;
+    }
+    pre{
+        font-size:2vmax;
+        text-align: center;
+        span{
+            font-size: 1.3em;
+        }
+    }
+    a{
+        margin-left:6vw;
+        text-decoration: none;
+        color:coral;
+    }
+}

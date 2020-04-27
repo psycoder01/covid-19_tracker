@@ -1,0 +1,47 @@
+.data {
+    padding: 2em;
+    background-color: #5e5b5b;
+    .area-details{
+        font-size: 3vmax;
+        text-align: center;
+        color:white;
+    }
+    .input-group {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .stats {
+        display: flex;
+        justify-content: center;
+        margin-top: 4em;
+        .card {
+            width: 30vw;
+            margin:0 auto;
+            .card-header{
+                font-size:2vmax;
+                text-align: center;
+            }
+            .card-title{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size:4vmax;
+                height: 2em;
+            }
+        }
+        .infected{
+            background-color: rgb(177, 33, 33);
+        }
+        .recovered{
+            background-color: rgb(17, 189, 92);
+        }
+    }
+    @media only screen and (max-width: 600px) {
+     .stats{
+         flex-direction: column;
+         .card{
+             width: 80vw;
+         }
+     }      
+    }
+}
