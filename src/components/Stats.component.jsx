@@ -7,7 +7,7 @@ const Stats = ({data}) => {
             <div
                 className="card text-white infected mb-3"
             >
-                <div className="card-header">Infected</div>
+                <div className="card-header">Cases</div>
                 <div className="card-body">
                     <h5 className="card-title"><CountUp start={0} end={data.cases || 0} duration={3}/></h5>
                     <p className="card-text">

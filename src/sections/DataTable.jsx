@@ -19,7 +19,7 @@ const DataTable = ({ countries }) => {
 					</tr>
 				</thead>
 				<tbody>
-					{redZone.sort((a,b)=>b.cases - a.cases).filter((item,index) => index < 10).map((item, index) => <tr><td>{index+1}</td><td>{item.country}</td><td>{item.cases}</td><td>{item.recovered}</td><td>{item.deaths}</td></tr>)}
+					{redZone.sort((a, b) => b.cases - a.cases).filter((item, index) => index < 10).map((item, index) => <tr><td>{index + 1}</td><td>{item.country}</td><td>{item.cases || "N / A"} </td><td>{item.recovered || "N / A"} </td><td>{item.deaths || "N / A"} </td></tr>)}
 				</tbody>
 			</table>
 		</div>
