@@ -8,7 +8,7 @@ const DataTable = ({ countries }) => {
 			<div className="title">
 				Red Zone Countries
       </div>
-			<table className="table">
+			<table className="table table-striped table-responsive-sm">
 				<thead className="thead-dark">
 					<tr>
 						<th scope="col">S.N</th>

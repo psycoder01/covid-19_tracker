@@ -25,10 +25,6 @@ const Navbar = () => {
           <Link to="/details">
             <li>Details</li>
           </Link>
-
-          <Link to="/news">
-            <li>News</li>
-          </Link>
         </ul>
       </div>
       <div className="burger">

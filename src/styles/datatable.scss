@@ -9,8 +9,10 @@
     text-decoration: underline;
   }
   .table {
-    width: 80%;
+    width: 90%;
     margin: 2em auto 2em auto;
     text-align: center;
+    overflow-x: scroll;
+    
   }
 }
