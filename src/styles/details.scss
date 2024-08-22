@@ -1,25 +1,25 @@
 .details {
-  .description {
-    width: 90vw;
-    margin: 4em auto 2em auto;
-    text-align: justify;
-  }
-  .info {
-    margin-top: 7em;
-    h3 {
-      margin:-0.7em auto 0 auto;
-      font-size: 2em;
+    padding-bottom: 4em;
+    .description {
+        width: 90vw;
+        margin: 4em auto 2em auto;
+        text-align: justify;
     }
-  }
+    .info {
+        margin-top: 7em;
+        h3 {
+            margin: -0.7em auto 0 auto;
+            font-size: 2em;
+        }
+    }
 
-  .card {
-    margin: 4em auto;
-    width: 80vw;
-    z-index: -1;
-    background-color: #f7f7f7;
-    li{
-      text-align: justify;
+    .card {
+        margin: 4em auto;
+        width: 80vw;
+        z-index: -1;
+        background-color: #f7f7f7;
+        li {
+            text-align: justify;
+        }
     }
-  }
-  padding-bottom:4em;
 }
