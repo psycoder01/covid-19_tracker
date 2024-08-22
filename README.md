@@ -1,4 +1,4 @@
-# covid-19_tracker
-A simple Live Data Tracker to keep your updated with current Covid-19 Pandemic.
+# Rsbuild Project
+A simple tracker for covid 19 cases all over the world using open apis.
 
-LINK ----> [Show Covid-19](https://showcovid.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf5342ed-41ef-4c71-aa47-881cf7d6457c/deploy-status)](https://app.netlify.com/sites/covid-19-tracking-info/deploys)
